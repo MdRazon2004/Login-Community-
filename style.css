@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    width: 1470px;
+    height: 1024px;
+    padding: 0 15px 0 15px;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left,
+.right {
+    width: 50%;
+    height: 100%;
+}
+.content {
+    max-width: 477px;
+}
+.left {
+    background: #F5F8FF;
+    border-radius: 50px 0 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left h2 {
+    width: 477px;
+    height: 38px;
+    flex-shrink: 0;
+    color: #09090B;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.left h3 {
+    color: #71717A;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 409px;
+}
+.account-link {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 25px 0;
+}
+.account-link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 215px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid rgba(128, 152, 249, 0.50);
+    cursor: pointer;
+    transition: .4s;
+    text-decoration: none;
+}
+.account-link p {
+    color: #09090B;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    flex-shrink: 0;
+}
+.account-link a:hover {
+    background: #8098f91a;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.or .virtual-line  {
+    background: #71717A;
+    width: 120px;
+    height: 1px;
+}
+.or h4 {
+    width: 213px;
+    height: 25px;
+    color: #71717A;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.content .input-bar #email ,
+.content .input-bar #password {
+    margin: 25px auto 0 auto;
+    display: flex;
+    align-items: center;
+    width: 453px; 
+    height: 64px;
+    padding: 10px 10px 10px 55px;
+    border-radius: 10px;
+    border: 2px solid rgba(128, 152, 249, 0.50);
+    background: rgba(128, 152, 249, 0.10);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+.content .input-bar #password {
+    margin: 10px auto 0 auto;
+}
+.input-bar ::placeholder {
+    width: 86px;
+    height: 24px;
+    color: rgba(45, 49, 166, 0.20);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+img#envelope {
+    position: relative;
+    left: 27px;
+    bottom: 120px;
+}
+img#shield-slash {
+    position: relative;
+    left: -7px;
+    bottom: 44px;
+}
+img#eye-slash {
+    position: relative;
+    left: 349px;
+    bottom: 45px;
+}
+.remembe-forgot {
+    position: relative;
+    top: -20px;
+    width: 451px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 0 auto ;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    accent-color: #8098F9;
+    cursor: pointer;
+}
+.remembe-forgot label {
+    display: flex;
+}
+.remembe-forgot h2 {
+    width: 135px;
+    height: 20px;
+    color: #71717A;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    cursor: pointer;
+}
+.remembe-forgot a {
+    text-decoration: none;
+    color: #8098F8;
+    font-size: 16px;
+    font-family: monospace;
+    line-height: 21px;
+}
+.remembe-forgot a:hover {
+    text-decoration: underline;
+}
+.left button {
+    display: flex;
+    width: 453px;
+    height: 64px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgb(128, 152, 249);
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+    transition: .4s;
+}
+.left button:hover {
+    background: rgba(128, 152, 249, .8);
+}
+.btn {
+    position: relative;
+    bottom: 1px;
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+.account-Create {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.account-Create h2 {
+    width: 322px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #71717A;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.account-Create a {
+    color: #8098F9;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+}
+.account-Create a:hover {
+    text-decoration: underline;
+}
+.right {
+    background: #6172F3;
+    border-radius:0 50px 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right .background1 {
+    width: 606px;
+    height: 606px;
+    flex-shrink: 0;
+    border-radius: 606px;
+    background: linear-gradient(163deg, rgba(68, 76, 231, 0.16) 6.85%, rgba(0, 0, 0, 0.00) 89.34%), radial-gradient(50% 50% at 50% 50%, rgba(68, 76, 231, 0.16) 0%, rgba(68, 76, 231, 0.06) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right .background2 {
+    width: 528px;
+    height: 528px;
+    flex-shrink: 0;
+    border-radius: 528px;
+    background: linear-gradient(174deg, rgba(164, 188, 253, 0.20) 4.83%, rgba(68, 76, 231, 0.16) 91.13%), radial-gradient(50% 50% at 50% 50%, rgba(68, 76, 231, 0.16) 0%, rgba(68, 76, 231, 0.06) 100%);
+}
+#authentication {
+    position: relative;
+    top: 79px;
+    left: -29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right h2 {
+    color: #E0EAFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    height: 25px;
+}
+.right p {
+    color: rgba(224, 234, 255, 0.75);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    height: 26px;
+}
+.right .Large div {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.Large {
+    position: relative;
+    top: 284px;
+}
